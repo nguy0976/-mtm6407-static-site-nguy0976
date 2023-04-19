@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/Home">KNT Nails & Spa</a>
+    <a className="navbar-brand" href="/Home">Subinn's</a>
     <button className="navbar-toggler" 
     type="button" 
     data-bs-toggle="collapse" 
