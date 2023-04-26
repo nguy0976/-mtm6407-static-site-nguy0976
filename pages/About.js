@@ -11,12 +11,14 @@ export default function About() {
       <NavBar />
     </div>
         <main>
-        <Header title="About Me" />
+        <Header />
+        <br></br>
             <div className="row">
                 <div className="col">
-                <img className="img-fluid" src="/Subinn.jpg" alt="Card image cap"/>
+                <img className="img-fluid" src="/Subinn.jpg" alt="image cap"/>
                 </div>
                 <div className="col">
+                    <h2>Subin Nguyen</h2>
                     <p>I am an international student from Vietnam, 
                         with a passion for media design, so I studied and 
                         graduated in Interactive Media Design at Algonquin College. 
