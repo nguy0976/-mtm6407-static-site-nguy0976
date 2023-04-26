@@ -3,34 +3,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Navbar() {
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="/Home">Subinn's</a>
-    <button className="navbar-toggler" 
-    type="button" 
-    data-bs-toggle="collapse" 
-    data-bs-target="#navbarNavAltMarkup" 
-    aria-controls="navbarNavAltMarkup" 
-    aria-expanded="false" 
-    aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <h2>Subinn's</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="/Home">Home</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/Home">Home</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/About">About</a>
+        <li class="nav-item">
+          <a class="nav-link" href="/About">About</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/Services">Services</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/Gallery">Gallery</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/Contact">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
       </ul>
     </div>
